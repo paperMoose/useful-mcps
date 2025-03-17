@@ -1,0 +1,17 @@
+{
+  "name": "postgres-cli-mcp",
+  "version": "1.0.0",
+  "main": "psql-mcp.js",
+  "scripts": {
+    "start": "node psql-mcp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "PostgreSQL MCP server using psql CLI",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "zod": "^3.22.4"
+  }
+}
